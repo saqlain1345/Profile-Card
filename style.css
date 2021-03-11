@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#particles-js{
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: #151155;
+    font-size: 3rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    color: #151153;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#sk2{
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    opacity: 0.75;
+}
+h3{
+    
+    color: #2e279d;
+    font-size: 2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 550px){
+
+    h1{
+       font-size: 2.5rem;
+       opacity: 0.75;
+       letter-spacing: 8px;
+    }
+
+    h2{
+        font-size: 1.7rem;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 1.2;
+    }
+    h3{
+        font-size: 1.3rem;
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+    h1{
+       font-size: 2.5rem;
+       opacity: 0.75;
+       letter-spacing: 3px;
+    }
+
+    h2{
+        font-size: 1.3rem;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 1.2;
+    }
+    h3{
+        font-size: 1.1rem;
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}
